@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .hide-until-hover { background-color: purple; }
+        body { color: purple }
+    </style>
+</head>
+<body>
+
+<h1>My math game</h1>
+
+<p>My first paragraph.</p>
+        
+        
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script>
+    let maxNumber = 14;
+    let workingNumber = 5;
+    let questions = [];
+    for(let i = workingNumber; i < maxNumber; i++) {
+        var question = { 
+            firstNumber: i,
+            secondNumber: workingNumber,
+            answer: firstNumber - secondNumber,
+        }
+    }
+</script>
+</body>
+</html>
